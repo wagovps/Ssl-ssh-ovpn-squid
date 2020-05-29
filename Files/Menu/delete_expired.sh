@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 datenow=$(date +%s)
 for user in $(awk -F: '{print $1}' /etc/passwd); do
 expdate=$(chage -l $user|awk -F: '/Account expires/{print $2}')
@@ -15,7 +15,7 @@ clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 echo -e "\e[93m        All Expired Users Has Been Deleted        "
 echo -e "\e[0m                                                   "
