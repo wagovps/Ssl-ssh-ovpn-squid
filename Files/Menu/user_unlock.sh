@@ -1,10 +1,10 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 read -p "         Username       :  " User
 egrep "^$User" /etc/passwd >/dev/null
@@ -16,7 +16,7 @@ then
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 echo -e "\e[93m              User Has Been Unlocked              "
 echo -e "\e[93m      User Has Been Removed from Locked_List      "
@@ -31,7 +31,7 @@ else
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 echo -e "\e[93m                User Is Not Locked                "
 echo -e "\e[0m                                                   "
@@ -44,7 +44,7 @@ else
 	echo -e "\e[0m                                                   "
 	echo -e "\e[94m[][][]======================================[][][]"
 	echo -e "\e[0m                                                   "
-	echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+	echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 	echo -e "\e[0m                                                   "
 	echo -e "\e[91m              Username Doesnt Exist               "
 	echo -e "\e[0m                                                   "
