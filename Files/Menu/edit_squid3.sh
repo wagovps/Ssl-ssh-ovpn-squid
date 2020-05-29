@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 rm -f /root/opensshport
 rm -f /root/dropbearport
 rm -f /root/stunnel4port
@@ -36,7 +36,7 @@ clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 echo -e "\e[93m                   Squid3  Port                   "
 echo -e "\e[93m               "$squidport
@@ -86,7 +86,7 @@ if [ $? -eq 0 ]; then
 	echo -e "\e[0m                                                   "
 	echo -e "\e[94m[][][]======================================[][][]"
 	echo -e "\e[0m                                                   "
-	echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+	echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 	echo -e "\e[0m                                                   "
 	echo -e "\e[93m                   Squid3  Port                   "
 	echo -e "\e[93m               "$squidport
