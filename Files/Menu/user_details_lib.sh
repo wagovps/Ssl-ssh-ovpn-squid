@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 Username=`cat /etc/passwd | grep -Ew ^$1 | cut -d":" -f1`
 if [ "$Username" = "" ]
 then
@@ -7,7 +7,7 @@ then
 	echo -e "\e[0m                                                   "
 	echo -e "\e[94m[][][]======================================[][][]"
 	echo -e "\e[0m                                                   "
-	echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+	echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 	echo -e "\e[0m                                                   "
 	echo -e "\e[93m              Username Doesnt Exist               "
 	echo -e "\e[0m                                                   "
@@ -29,7 +29,7 @@ clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 printf "%-25s : %5s\n"   "      Username                 " "$Username"
 printf "%-25s : %5s\n"   "      Password previous change " "$LastPasswordChangeDate"
