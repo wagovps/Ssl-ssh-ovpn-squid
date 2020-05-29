@@ -1,6 +1,6 @@
 #!/bin/bash
 # Created by http://www.vps-murah.net
-# Modified by 0123456
+# Modified by WaGo
 
 if [[ -e /etc/debian_version ]]; then
 	OS=Debian
