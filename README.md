@@ -26,5 +26,5 @@
 <h3 align="center">Installation</h3>
 
 <p align="center">
-<b>bash -c "$(wget https://git.io/fjeHF -qO-)"</b>
+<b>bash -c "$(wget https://git.io/JfKcz -qO-)"</b>
   </p>
