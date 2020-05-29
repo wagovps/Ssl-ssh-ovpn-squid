@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 if [ -f "$FILE" ];
 then
 cd
