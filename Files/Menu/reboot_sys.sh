@@ -1,10 +1,10 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 echo -e "\e[93m            [1] Reboot Now"
 echo -e "\e[93m            [2] Reboot Time"
