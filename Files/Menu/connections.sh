@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 clear
 echo " "
 echo " "
