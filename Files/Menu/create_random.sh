@@ -1,10 +1,10 @@
 #!/bin/bash
-# Script by : Hiratechi
+# Script by : WaGo
 clear
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 read -p "         No. of Users   :  " No_User
 read -p "         Active Days    :  " Days
@@ -17,7 +17,7 @@ Expire_On=$(date -d "$Days days" +"%Y-%m-%d")
 echo -e "\e[0m                                                   "
 echo -e "\e[94m[][][]======================================[][][]"
 echo -e "\e[0m                                                   "
-echo -e "\e[93m           AutoScriptVPS by  Hiratechi           "
+echo -e "\e[93m           AutoScriptVPS by  WaGo           "
 echo -e "\e[0m                                                   "
 for (( i=1; i <= $No_User; i++ ))
 do
